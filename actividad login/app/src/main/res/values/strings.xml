@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">petsLogin</string>
+    <string name="txt_user">Username</string>
+    <string name="txt_mail">e-mail</string>
+    <string name="txt_pass">Password</string>
+    <string name="txt_contrasena">********</string>
+    <string name="button_si">Sign In</string>
+    <string name="button_su">Sign Up</string>
+</resources>
