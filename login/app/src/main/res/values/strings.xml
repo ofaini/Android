@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="txt_user">Username</string>
+    <string name="txt_mail">email</string>
+    <string name="txt_pass">Password</string>
+    <string name="txt_password">*******</string>
+    <string name="et_firstname">First Name</string>
+    <string name="et_lastname">Last Name</string>
+    <string name="txt_signup_mail">e-mail</string>
+    <string name="txt_signup_password">Password</string>
+    <string name="btn_signin">Sign In</string>
+    <string name="btn_signup">Sign Up</string>
+</resources>
