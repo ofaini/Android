@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.SeekBar;
 
@@ -61,5 +63,47 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
     @Override
     public void onStopTrackingTouch(SeekBar seekBar) {
 
+    }
+
+    //Método para mostrar y ocultar el menú
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.overflow, menu);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+        if(id == R.id.item1){
+            sbrRed.setProgress(255);
+            sbrGreen.setProgress(255);
+            sbrBlue.setProgress(0);
+            sbrAlpha.setProgress(100);
+        }else if(id == R.id.item2){
+            sbrRed.setProgress(10);
+            sbrGreen.setProgress(10);
+            sbrBlue.setProgress(10);
+            sbrAlpha.setProgress(180);
+        }else if(id == R.id.item3){
+            sbrRed.setProgress(255);
+            sbrGreen.setProgress(255);
+            sbrBlue.setProgress(255);
+            sbrAlpha.setProgress(180);
+        }else if(id == R.id.item4){
+            sbrRed.setProgress(108);
+            sbrGreen.setProgress(59);
+            sbrBlue.setProgress(42);
+            sbrAlpha.setProgress(200);
+        }else if(id == R.id.item5){
+            sbrRed.setProgress(0);
+            sbrGreen.setProgress(255);
+            sbrBlue.setProgress(255);
+            sbrAlpha.setProgress(150);
+        }else if(id == R.id.item6){
+            sbrRed.setProgress(255);
+            sbrGreen.setProgress(0);
+            sbrBlue.setProgress(255);
+            sbrAlpha.setProgress(150);
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

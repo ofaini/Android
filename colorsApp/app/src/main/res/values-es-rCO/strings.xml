@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="txt_blue">Azul:</string>
     <string name="red">Rojo</string>
     <string name="app_name">colores</string>
     <string name="black">Negro</string>
