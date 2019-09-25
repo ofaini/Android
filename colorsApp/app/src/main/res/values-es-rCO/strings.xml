@@ -13,4 +13,9 @@
     <string name="cyan">Cyan</string>
     <string name="magenta">Magenta</string>
     <string name="alpha">Alfa</string>
+    <string name="txt_code">Codigo: I043116</string>
+    <string name="txt_mail">e-mail: oscar.faini@gmail.com</string>
+    <string name="txt_name">Desarrollado por: Oscar Faini</string>
+    <string name="btn_contact">Regresar</string>
+    <string name="item7">Contactanos</string>
 </resources>

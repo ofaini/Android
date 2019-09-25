@@ -2,6 +2,7 @@ package com.example.colorsapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
@@ -103,6 +104,10 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
             sbrGreen.setProgress(0);
             sbrBlue.setProgress(255);
             sbrAlpha.setProgress(150);
+        }
+        else if(id == R.id.item7){
+            Intent siguiente = new Intent(this,contact.class);
+            startActivity(siguiente);
         }
         return super.onOptionsItemSelected(item);
     }

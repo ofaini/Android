@@ -20,4 +20,7 @@
     <item
         android:id="@+id/item6"
         android:title="@string/magenta" />
+    <item
+        android:id="@+id/item7"
+        android:title="@string/item7" />
 </menu>
