@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="btn_signIn">#8DE440</color>
+    <color name="btn_signUp">#FF5252</color>
+    <color name="rltBackground">#455797</color>
+    <color name="aboutus">#4259A2</color>
+    <color name="negro">#000000</color>
+    <color name="amarillofondo">#E2DEDB</color>
+    <color name="azulceleste">#03A9F4</color>
+    <color name="fondocontact">#DBDBDB</color>
+</resources>

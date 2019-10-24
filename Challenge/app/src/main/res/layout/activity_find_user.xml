@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#4DB6AC"
+    tools:context=".findUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="User email"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/idEmailFind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/login_mail"
+            android:background="@color/amarillofondo"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/lastName"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/idLnameFind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/amarillofondo"
+            android:textColor="#000000"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/firstName"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/idFnameFind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/amarillofondo"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:text="@string/password"
+            android:textSize="18sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idPasswdFind"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/amarillofondo"
+                android:textColor="#000000"
+                android:hint="@string/hide"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/confirmPass"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idCPasswdFind"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/amarillofondo"
+                android:textColor="#000000"
+                android:hint="@string/hide"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@mipmap/search"
+            android:onClick="buscar"
+            android:text="@string/btn_search"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_rojo"
+                android:textColor="#ffffff"
+                android:onClick="eliminar"
+                android:text="@string/btn_deleteUser" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/btn_update"
+                android:onClick="modify"
+                android:text="@string/btn_UpdateUser" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

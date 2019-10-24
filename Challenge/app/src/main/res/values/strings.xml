@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">challenge</string>
+    <string name="username">Username</string>
+    <string name="login_mail">mail@mail.com</string>
+    <string name="password">Password</string>
+    <string name="hide">********</string>
+    <string name="btn_signUp">Sign Up</string>
+    <string name="btn_signIn">Sign In</string>
+    <string name="btn_search">Search user</string>
+    <string name="btn_deleteUser">Delete</string>
+    <string name="btn_UpdateUser">Update</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="yourEmail">Your Email</string>
+    <string name="confirmPass">Confirm Password</string>
+    <string name="IFindUsers">Find User</string>
+    <string name="IAllUsers">See all users</string>
+    <string name="aboutUs">About Us</string>
+    <string name="logOut">Log Out</string>
+</resources>

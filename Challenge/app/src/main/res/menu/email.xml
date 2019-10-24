@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemRegistrar"
+        android:title="Register user" />
+    <item
+        android:id="@+id/itemGmail"
+        android:title="Gmail users" />
+    <item
+        android:id="@+id/itemHotmail"
+        android:title="Hotmail users" />
+</menu>
