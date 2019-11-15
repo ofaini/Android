@@ -12,9 +12,9 @@
     <string name="magenta">Magenta</string>
     <string name="cyan">Cyan</string>
     <string name="alpha">Alpha</string>
-    <string name="txt_name">Developed by: Oscar Faini</string>
+    <string name="item7">Contact us</string>
+    <string name="txt_name">Developed by: Oscar Faini Bravo</string>
     <string name="txt_code">Code: I043116</string>
     <string name="txt_mail">e-mail: oscar.faini@gmail.com</string>
     <string name="btn_contact">Return</string>
-    <string name="item7">Contact us</string>
 </resources>

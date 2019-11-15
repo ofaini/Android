@@ -6,52 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".contact">
 
-    <TextView
-        android:id="@+id/txt_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="80dp"
-        android:text="@string/txt_name"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="480dp">
 
-    <TextView
-        android:id="@+id/txt_code"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="28dp"
-        android:text="@string/txt_code"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_name" />
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="80dp"
+            android:text="@string/txt_name"
+            android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/txt_mail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="28dp"
-        android:text="@string/txt_mail"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_code" />
+        <TextView
+            android:id="@+id/txt_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/txt_code"
+            android:textSize="18sp" />
 
-    <Button
-        android:id="@+id/btn_contact"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginLeft="160dp"
-        android:layout_marginTop="48dp"
-        android:onClick="regresar"
-        android:text="@string/btn_contact"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_mail" />
+        <TextView
+            android:id="@+id/txt_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/txt_mail"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="48dp"
+            android:onClick="regresar"
+            android:text="@string/btn_contact"
+            android:textSize="24sp" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

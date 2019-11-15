@@ -16,10 +16,8 @@ public class contact extends AppCompatActivity {
 
     public void regresar(View view){
 
-
-
-            Intent regresar = new Intent(this,MainActivity.class);
-            startActivity(regresar);
+            Intent colores = new Intent(this,MainActivity.class);
+            startActivity(colores);
 
 
     }

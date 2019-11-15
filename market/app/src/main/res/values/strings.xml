@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Market</string>
+    <string name="usr_register">Register form</string>
+    <string name="txt_sign_in_username">User name</string>
+    <string name="txt_login_username">mail@mail.com</string>
+    <string name="txt_sign_in_password">Password</string>
+    <string name="txt_login_password">******</string>
+    <string name="iFind">Find user</string>
+    <string name="iFemale">Female users</string>
+    <string name="iAll">All users</string>
+    <string name="iContactus">Contact us</string>
+    <string name="iLogout">Log Out</string>
+</resources>

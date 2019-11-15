@@ -3,24 +3,24 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/item1"
+        android:id="@+id/ityellow"
         android:title="@string/yellow" />
     <item
-        android:id="@+id/item2"
+        android:id="@+id/itblack"
         android:title="@string/black" />
     <item
-        android:id="@+id/item3"
+        android:id="@+id/itwhite"
         android:title="@string/white" />
     <item
-        android:id="@+id/item4"
+        android:id="@+id/itbrown"
         android:title="@string/brown" />
     <item
-        android:id="@+id/item5"
+        android:id="@+id/itcyan"
         android:title="@string/cyan" />
     <item
-        android:id="@+id/item6"
+        android:id="@+id/itmagenta"
         android:title="@string/magenta" />
     <item
-        android:id="@+id/item7"
-        android:title="@string/item7" />
+        android:id="@+id/itsemitransparent"
+        android:title="@string/semiTransparent" />
 </menu>

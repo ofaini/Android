@@ -60,5 +60,6 @@
             android:onClick="signUp"
             android:text="@string/btn_signup"
             android:textSize="30sp" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
